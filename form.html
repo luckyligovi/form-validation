@@ -33,11 +33,11 @@
 
             <div class="input-grp">
                 <label for="email">email:</label>
-                <input type="email" id="lname" placeholder="enter your first name" >
+                <input type="email" id="email" placeholder="enter your first name" onkeyup="validateEmail()">
                 <span id="email-error" ></span>
             </div>
 
-            <button>submit</button>
+            <button onclick ="return validateForm()">submit</button>
             <span id="submit-error" ></span>
         </form>
 
