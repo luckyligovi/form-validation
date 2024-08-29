@@ -72,3 +72,7 @@ form button{
     color: red;
     font-size: 14px;
 }
+
+.valid {
+    color: green;
+  }
