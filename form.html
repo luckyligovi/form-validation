@@ -39,6 +39,19 @@
                 <span id="email-error" ></span>
             </div>
 
+            <div class="input-grp">
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password" onkeyup="validatePassword()">
+                <span id="password-error"></span> 
+            </div>
+            
+            <div class="input-grp">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" placeholder="Confirm password" onkeyup="validatePassword()">
+                <span id="confirm-password-error"></span> 
+            </div>
+            
+
             <button onclick ="validateForm()">submit</button>
             <span id="submit-error" ></span>
         </div>
