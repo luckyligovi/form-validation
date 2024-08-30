@@ -57,7 +57,9 @@ function validateEmail() {
 
 function validateForm(){
     if (!validateName() || !validateSecondName() || !validatePhone() || !validateEmail() ) {
+        submitError.style.display = "block";
         submitError.innerHTML = "Fix the errors to submit"
+        setTimeout(function(){submitError.style.display = "none"},3000)
     }
 }
 
